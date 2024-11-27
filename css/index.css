@@ -304,6 +304,9 @@ select:focus-visible {
     bottom: -1.13px;
     right: 1px;
     margin: auto;
+    @media only screen and (max-width: 1050px) {
+        letter-spacing: 0px;
+    }
 }
 
 .portfolio__bio-description {

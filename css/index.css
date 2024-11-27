@@ -12,9 +12,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    position: sticky;
-    top: 0;
-    overflow: hidden;
     @media only screen and (max-width: 550px) {
         padding: 20px;
     }

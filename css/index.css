@@ -286,7 +286,6 @@ select:focus-visible {
 }
 
 .portfolio__bio-stack-name {
-    letter-spacing: -5.2px;
     text-transform: uppercase;
     position: absolute;
     left: 0px;

@@ -24,6 +24,60 @@ ul {
     list-style: none;
 }
 
+.header {
+    display: flex;
+    background-color: var(--cores_mine_shaft);
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    @media only screen and (max-width: 550px) {
+        padding: 20px;
+    }
+}
+
+.header__menu {
+    align-self: end;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1186px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 84px;
+    align-items: center;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 1050px) {
+      gap: 20px;
+    }
+}
+  
+.header__menu-item-3 {
+    color: var(--cores_white_90) !important;
+    text-transform: uppercase;
+}
+  
+.header__infoicon {
+    width: 60px;
+    height: 60px;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.header__menu-item {
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -77,55 +131,6 @@ select:focus-visible {
     background-color: var(--white_a700);
     width: 100%;
 
-}
-
-.header {
-    display: flex;
-    background-color: var(--cores_mine_shaft);
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    @media only screen and (max-width: 550px) {
-        padding: 20px;
-    }
-}
-
-.header__menu {
-    align-self: end;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1186px;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 20px;
-    @media only screen and (max-width: 1050px) {
-        flex-direction: column;
-    }
-}
-
-.header__menu-list {
-    display: flex;
-    gap: 84px;
-    align-items: center;
-    flex-wrap: wrap;
-    @media only screen and (max-width: 1050px) {
-      gap: 20px;
-    }
-}
-  
-.header__menu-item-3 {
-    color: var(--cores_white_90) !important;
-    text-transform: uppercase;
-}
-  
-.header__infoicon {
-    width: 60px;
-    height: 60px;
-  @media only screen and (max-width: 1050px) {
-    width: 100%;
-  }
 }
 
 .newscreenbody {
@@ -533,11 +538,6 @@ select:focus-visible {
 .twitter-link-link {
     margin-top: -2px;
     position: relative;
-}
-
-.header__menu-item {
-    letter-spacing: -0.64px;
-    text-transform: uppercase;
 }
 
 .user-profile-image {

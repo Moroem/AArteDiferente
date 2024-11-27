@@ -249,6 +249,10 @@ select:focus-visible {
     margin-top: 28px;
     background-color: var(--cores_mine_shaft);
     width: 126px;
+    @media only screen and (max-width: 1050px) {
+        margin-top: 28.75px;
+        margin-bottom: 5px;
+    }
 }
 
 .portfolio__main-stack-column-view--bottom {
@@ -257,6 +261,10 @@ select:focus-visible {
     align-self: end;
     background-color: var(--cores_mine_shaft);
     width: 76px;
+    @media only screen and (max-width: 1050px) {
+        margin-top: 49px;
+        margin-bottom: 5px;
+    }
 }
 
 .portfolio__bio {
